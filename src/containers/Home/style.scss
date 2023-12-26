@@ -1,0 +1,20 @@
+@import '../../styles/themes';
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'League Spartan', sans-serif;;
+  scroll-behavior: smooth;
+}
+
+:root {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+.container__menu {
+  background-color: $green-100;
+}
