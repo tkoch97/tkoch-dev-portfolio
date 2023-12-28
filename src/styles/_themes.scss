@@ -11,3 +11,11 @@ $green-300: #00FFFB;
 $dark-100: #000;
 $dark-200: #060C1F;
 $dark-300: #050D24;
+
+$DEVICE_BREAKPOINTS: (
+  XS: 320px,
+  SM: 425px,
+  MD: 912px,
+  LG: 1023px,
+  XL: 1280px
+)
