@@ -8,7 +8,7 @@
   padding: 2.5rem 7.0rem;
   position: fixed;
   background-color: $dark-300;
-  border-bottom: 0.5px $light-200;
+  border-bottom: 0.5px solid $light-200;
   width: 100%;
 
   @media screen and (max-width: map-get($DEVICE_BREAKPOINTS, MD)) {
