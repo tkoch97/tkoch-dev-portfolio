@@ -1,0 +1,45 @@
+@import '../../styles/themes';
+
+.welcomeContent {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10.0rem;
+
+  .welcomeContent__main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 4.5rem;
+    
+    .welcomeContent__textsContainer {
+      color: $light-300;
+      display: flex;
+      flex-direction: column;
+      gap: 2.2rem;
+
+      .welcomeContent__introduction, .welcomeContent__professionalTitle {
+        font-size: 5.2rem;
+        font-style: normal;
+        font-weight: 400;
+      }
+
+      .welcomeContent__salute {
+        font-size: 2.8rem;
+        font-style: normal;
+        font-weight: 300;
+      }
+
+      span {
+        color: $green-200;
+      }
+    }
+  }
+
+  .welcomeContent__actionButton {
+    width: 36.4rem;
+    height: 4.0rem;
+  }
+}
