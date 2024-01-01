@@ -21,7 +21,7 @@ export function WelcomeContent(props) {
           <div className='welcomeContent__textsContainer'>
 
             <h1 className='welcomeContent__introduction'>
-              Olá! eu sou o <span>Thiago,</span>
+              Olá! Eu sou o <span>Thiago,</span>
             </h1>
 
             <h1 className='welcomeContent__professionalTitle'>
