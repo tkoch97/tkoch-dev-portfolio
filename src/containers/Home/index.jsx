@@ -11,6 +11,14 @@ import { WelcomeContent } from '../../components/WelcomeContent';
 
 function Page() {
 
+  const links = {
+    link1: '#about',
+    link2: '#knowledge',
+    link3: '#education',
+    link4: '#projects',
+    link5: '#contact',
+  }
+
   return (
     <div className='container'>
       <div className='container__mobileMenu'>
@@ -18,13 +26,13 @@ function Page() {
       </div>
 
       <div className='container__NavBarr'>
-        <NavBarr/>
+        <NavBarr links={links}/>
       </div>
 
       <div className='container__main'>
 
         <div className='container__welcomeSection' id='welcome'>
-          <WelcomeContent/>
+          <WelcomeContent link='#about'/>
         </div>
         <div className='container__aboutSection' id='about'>
           <AboutContent/>
