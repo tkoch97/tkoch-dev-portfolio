@@ -8,14 +8,17 @@ export function KnowledgeContent() {
   return (
     <>
       <div className='knowledgeContent'>
+
         <SectionsTitle text='Conhecimento'/>
+
+        <div className='knowledgeContent__tecnologies'>
+          {tecnologiesData.map(tecnologie =>(
+            <TecnologieIcon key={(String(tecnologie.index))} data={tecnologie}/>
+          ))}
+        </div>
+        
       </div>
 
-      <div className='knowledgeContent__tecnologies'>
-        {tecnologiesData.map(tecnologie =>(
-          <TecnologieIcon key={(String(tecnologie.index))} data={tecnologie}/>
-        ))}
-      </div>
     </>
   )
 }

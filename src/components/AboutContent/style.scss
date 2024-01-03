@@ -9,7 +9,6 @@
   
   @media screen and (max-width: map-get($DEVICE_BREAKPOINTS, SM)) {
     align-items: flex-start;
-    gap: 2.0rem;
   }
 
   .aboutContent__main {
