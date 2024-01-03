@@ -1,5 +1,6 @@
 import './style.scss';
 import aboutData from '../../utils/aboutData.json';
+import { SectionsTitle } from '../SectionsTitle';
 
 export function AboutContent() {
 
@@ -9,9 +10,7 @@ export function AboutContent() {
     <>
       <div className='aboutContent'>
 
-        <div className='aboutContent__title'>
-          Sobre Mim
-        </div>
+        <SectionsTitle text='Sobre mim'/>
 
         <div className='aboutContent__main'>
           {subjects.map(subject => (
