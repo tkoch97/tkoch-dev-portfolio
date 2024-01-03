@@ -16,7 +16,7 @@ export function KnowledgeContent() {
             <TecnologieIcon key={(String(tecnologie.index))} data={tecnologie}/>
           ))}
         </div>
-        
+
       </div>
 
     </>

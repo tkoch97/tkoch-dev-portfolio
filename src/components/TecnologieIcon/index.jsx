@@ -11,9 +11,11 @@ export function TecnologieIcon(props) {
     
     <div className="tecnologieIconStructure">
 
-      <div className="tecnologieIconStructure__ring" dangerouslySetInnerHTML={{__html: data.icon}}/>
+      <div className="tecnologieIconStructure__ring" dangerouslySetInnerHTML={{__html: data.icon}} 
+        id={data.name.replace(/\s/g, '_')}
+      />
 
-      <p className="tecnologieIconStructure__name">
+      <p className="tecnologieIconStructure__name" >
         {data.name}
       </p>
 
