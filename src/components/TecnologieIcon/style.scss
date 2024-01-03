@@ -26,21 +26,36 @@
 
 }
 
+
 .tecnologieIconStructure__ring {
   width: 9.0rem;
   height: 9.0rem;
   display: flex;
   justify-content: center;
   align-items: center;
-
+  
   border: 1px solid $green-200;
   border-radius: 50%;
-
+  
   @media screen and (max-width: map-get($DEVICE_BREAKPOINTS, SM)) {
     width: 8.0rem;
     height: 8.0rem;
   }
+  
+  @media screen and (width: 375px) {
+    width: 7.0rem;
+    height: 7.0rem;
+  }
 }
+
+#HTML5, #CSS3 {
+  @media screen and (width: 375px) {
+    > svg {
+      width: 50%;
+    }
+  }
+}
+
 
 .tecnologieIconStructure__name {
   color: $green-200;
