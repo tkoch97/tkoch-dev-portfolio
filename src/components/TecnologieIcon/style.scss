@@ -42,14 +42,14 @@
     height: 8.0rem;
   }
   
-  @media screen and (width: 375px) {
+  @media screen and (min-width: 360px) and (max-width: 409px) {
     width: 7.0rem;
     height: 7.0rem;
   }
 }
 
 #HTML5, #CSS3 {
-  @media screen and (width: 375px) {
+  @media screen and (min-width: 360px) and (max-width: 409px) {
     > svg {
       width: 50%;
     }
