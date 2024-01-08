@@ -14,7 +14,7 @@ export function AboutContent() {
 
         <div className='aboutContent__main'>
           {subjects.map(subject => (
-            <div className='aboutContent__subjectBlock' key={(String(subject.title))}>
+            <div className='aboutContent__subjectBlock' key={subject.title}>
               <h2 className='aboutContent__subjectTitle'>
                 {subject.title}
               </h2>
