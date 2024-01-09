@@ -1,0 +1,21 @@
+@import '../../styles/themes';
+
+.projectCardStructure {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  border: 2px solid $green-200;
+  border-radius: 1.5rem;
+}
+
+.projectCardStructure__tecnologies {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.projectCardStructure__buttons {
+  display: flex;
+  align-items: center;
+}
