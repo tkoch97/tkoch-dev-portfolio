@@ -5,7 +5,6 @@ import { SectionsTitle } from '../SectionsTitle';
 export function EducationContent() {
 
   const informations = educationData;
-  console.log(informations);
 
   return (
     <>

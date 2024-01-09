@@ -35,7 +35,8 @@
   
   &--transparent {
     background: none;
-    border: 1px solid $light-100;
+    border: none;
+    outline: 1px solid $light-100;
     border-radius: 25px;
     color: $light-100;
     font-size: 1.4rem;
@@ -56,6 +57,7 @@
     &:hover {
       background-color: $green-300;
       border: none;
+      outline: none;
       color: $dark-100;
     }
   }
