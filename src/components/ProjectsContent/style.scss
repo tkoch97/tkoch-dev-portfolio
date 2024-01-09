@@ -1,4 +1,11 @@
+@import '../../styles/themes';
+
 .projectsContent {
   display: flex;
   flex-direction: column;
+  gap: 5.0rem;
+
+  @media screen and (max-width: map-get($DEVICE_BREAKPOINTS, SM)) {
+    align-items: flex-start;
+  }
 }

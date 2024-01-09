@@ -3,11 +3,11 @@ import PropTypes from 'prop-types';
 
 export function TecnologieTag(props) {
   
-  const {text} = props
+  const {text, ...rest} = props
 
   return(
     <>
-      <div className="tecnologieTagStructure">
+      <div className="tecnologieTagStructure" {...rest}>
         {text}
       </div>
     </>
@@ -15,5 +15,6 @@ export function TecnologieTag(props) {
 }
 
 TecnologieTag.propTypes = {
-  text: PropTypes.string
+  text: PropTypes.string,
+  rest: PropTypes.any
 };
