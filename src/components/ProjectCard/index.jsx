@@ -2,16 +2,28 @@ import './style.scss';
 import { Button } from '../Button';
 import PropTypes from 'prop-types';
 import { TecnologieTag } from '../TecnologieTag'
+import { useState } from 'react';
 
 
 export function ProjectCard(props) {
 
   const {data} = props;
-  console.log(data)
+
+  const [isHovered, setIsHovered] = useState(false);
+
+  const setTecnologieTagGreen = () => {
+    setIsHovered(true)
+  }
+  const setTecnologieTagNormal = () => {
+    setIsHovered(false)
+  }
 
   return(
     <>
-      <div className="projectCardStructure">
+      <div className="projectCardStructure"
+        onMouseEnter={setTecnologieTagGreen}
+        onMouseLeave={setTecnologieTagNormal}
+      >
 
         <h2 className="projectCardStructure__title">
           {data.title}
@@ -25,7 +37,7 @@ export function ProjectCard(props) {
 
         <div className="projectCardStructure__tecnologies">
           {data.tecnologies.map(tecnologie => (
-            <TecnologieTag className='tecnologieTagStructure' key={tecnologie.index} text={tecnologie}/>
+            <TecnologieTag className={isHovered ? 'tecnologieTagStructure--green' : 'tecnologieTagStructure'} key={tecnologie.index} text={tecnologie}/>
           ))}
         </div>
         
