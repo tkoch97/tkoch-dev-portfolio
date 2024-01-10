@@ -37,7 +37,7 @@ export function WelcomeContent(props) {
         </div>
 
         <div className='welcomeContent__actionButton'>
-          <Button className='buttonStructure' title='VEM COMIGO' icon={HiOutlineArrowLongDown} internalLink={link}/>
+          <Button className='buttonStructure--withArrow' title='VEM COMIGO' icon={HiOutlineArrowLongDown} internalLink={link}/>
         </div>
       </div>
       
