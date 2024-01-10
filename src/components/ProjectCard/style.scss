@@ -32,18 +32,30 @@
 .projectCardStructure__title {
   display: flex;
   justify-content: center;
-  font-size: clamp(2.0rem, 4vw, 2.4rem);
+  font-size: clamp(2.0rem, 20vw, 2.4rem);
   font-weight: 500;
   color: $light-100;
   transition: all 0.5s ease-out;
+  
+  @media screen and (max-width: map-get($DEVICE_BREAKPOINTS, MD)) {
+    color: $light-200;
+  }
 }
 
+.projectCardStructure__image {
+  width: clamp(23.0rem, 80vw, 27.0rem);
+}
 
 .projectCardStructure__description {
   color: $light-100;
   font-size: clamp(1.0rem, 4vw, 1.5rem);
   font-weight: 300;
+  line-height: 1.4rem;
   transition: all 0.5s ease-out;
+
+  @media screen and (max-width: map-get($DEVICE_BREAKPOINTS, MD)) {
+    color: $light-200;
+  }
 }
 
 .projectCardStructure__tecnologies {
