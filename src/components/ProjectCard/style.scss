@@ -43,14 +43,20 @@
 }
 
 .projectCardStructure__image {
-  width: clamp(23.0rem, 80vw, 27.0rem);
+  width: clamp(23.0rem, 70vw, 27.0rem);
+  border-radius: .5rem;
+  transition: transform 0.5s ease-in-out;
+
+  &:hover {
+    transform: scale(1.2);
+  }
 }
 
 .projectCardStructure__description {
   color: $light-100;
   font-size: clamp(1.0rem, 4vw, 1.5rem);
   font-weight: 300;
-  line-height: 1.4rem;
+  line-height: 1.5rem;
   transition: all 0.5s ease-out;
 
   @media screen and (max-width: map-get($DEVICE_BREAKPOINTS, MD)) {

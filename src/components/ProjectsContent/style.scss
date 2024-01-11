@@ -15,11 +15,11 @@
 .projectsContent__main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 5.4rem;
+  gap: 5.0rem;
   
-  @media screen and (max-width: map-get($DEVICE_BREAKPOINTS, MD)) {
+  @media screen and (max-width: map-get($DEVICE_BREAKPOINTS, XL)) {
     grid-template-columns: 1fr 1fr;
-    gap: 3.0rem;
+    gap: clamp(2.0rem, 10vw, 4.0rem);
   }
 
   @media screen and (max-width: 650px) {

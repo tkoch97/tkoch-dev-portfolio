@@ -70,11 +70,11 @@
     background-color: $dark-200;
     display: flex;
     justify-content: center;
-
-  
+    
+    
     padding: 15.0rem 15.0rem;
-  
-    @media screen and (max-width: map-get($DEVICE_BREAKPOINTS, MD)) {
+    
+    @media screen and (max-width: map-get($DEVICE_BREAKPOINTS, SM)) {
       padding: 10.0rem 3.0rem 10.0rem 3.0rem;
     }
   }
