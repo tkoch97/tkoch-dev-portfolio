@@ -1,5 +1,5 @@
 import './style.scss'
-import educationData from '../../utils/educationData.json';
+import { educationData } from '../../utils/educationData';
 import { SectionsTitle } from '../SectionsTitle';
 
 export function EducationContent() {

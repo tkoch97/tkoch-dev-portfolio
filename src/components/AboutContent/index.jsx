@@ -1,5 +1,5 @@
 import './style.scss';
-import aboutData from '../../utils/aboutData.json';
+import { aboutData } from '../../utils/aboutData';
 import { SectionsTitle } from '../SectionsTitle';
 
 export function AboutContent() {
