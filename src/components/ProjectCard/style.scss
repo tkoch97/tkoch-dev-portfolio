@@ -43,9 +43,13 @@
 }
 
 .projectCardStructure__image {
-  width: clamp(23.0rem, 70vw, 27.0rem);
+  width: 27.0rem;
   border-radius: .5rem;
   transition: transform 0.5s ease-in-out;
+  
+  @media screen and (max-width: map-get($DEVICE_BREAKPOINTS, SM)) {
+    width: 100%;
+  }
 
   &:hover {
     transform: scale(1.2);
