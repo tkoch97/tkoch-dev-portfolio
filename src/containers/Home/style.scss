@@ -24,7 +24,7 @@
   
   .container__welcomeSection {
     background-color: $dark-200;
-    padding: 15.0rem;
+    padding: 15.0rem 3.0rem;
     
     @media screen and (max-width: map-get($DEVICE_BREAKPOINTS, SM)) {
       padding: 12.0rem 3.0rem 9.0rem 3.0rem;
