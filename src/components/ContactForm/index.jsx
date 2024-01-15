@@ -16,8 +16,7 @@ export function ContactForm(props) {
 
       <textarea name="message" id="message"  
       className="contactFormStructure__message"
-      placeholder={placeholders[0].message}
-      cols="30" rows="10"></textarea>
+      placeholder={placeholders[0].message}></textarea>
       
       <div className='contactFormStructue__button'>
         <Button title='ENVIAR'/>
