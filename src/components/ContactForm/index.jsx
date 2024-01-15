@@ -5,7 +5,6 @@ import PropTypes from 'prop-types';
 export function ContactForm(props) {
 
   const {placeholders} = props;
-  console.log(placeholders)
 
   return(
     <div className="contactFormStructure">
