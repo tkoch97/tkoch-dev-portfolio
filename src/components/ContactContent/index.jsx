@@ -1,4 +1,5 @@
 import { ContactForm } from '../ContactForm'
+import { SocialMediaLinks } from '../SocialMediaLinks'
 import './style.scss'
 
 export function ContactContent() {
@@ -11,6 +12,14 @@ export function ContactContent() {
     }
   ]
 
+  const socialMediaLinks = [
+    {
+      linkedIn:"https://www.linkedin.com/in/tkoch97/",
+      instagram:"https://www.instagram.com/tkoch.dev/",
+      github:"https://github.com/tkoch97",
+    }
+  ]
+
   return(
     <>
       <div className='contactContent'>
@@ -20,9 +29,10 @@ export function ContactContent() {
         </h2>
 
         <ContactForm placeholders={placeholders}/>
+      
+        <SocialMediaLinks className="socialMediaLinksStructure" links={socialMediaLinks}/>
 
       </div>
-    
     </>
   )
 }
