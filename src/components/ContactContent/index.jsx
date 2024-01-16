@@ -12,14 +12,6 @@ export function ContactContent() {
     }
   ]
 
-  const socialMediaLinks = [
-    {
-      linkedIn:"https://www.linkedin.com/in/tkoch97/",
-      instagram:"https://www.instagram.com/tkoch.dev/",
-      github:"https://github.com/tkoch97",
-    }
-  ]
-
   return(
     <>
       <div className='contactContent'>
@@ -30,7 +22,7 @@ export function ContactContent() {
 
         <ContactForm placeholders={placeholders}/>
       
-        <SocialMediaLinks className="socialMediaLinksStructure" links={socialMediaLinks}/>
+        <SocialMediaLinks className="socialMediaLinksStructure"/>
 
       </div>
     </>
