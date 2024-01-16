@@ -3,6 +3,7 @@ import myPhotoWelcome from '../../assets/myPhotoWelcome.svg';
 import { HiOutlineArrowLongDown } from "react-icons/hi2";
 import { Button } from '../Button';
 import PropTypes from 'prop-types';
+import { SocialMediaLinks } from '../SocialMediaLinks';
 
 export function WelcomeContent(props) {
 
@@ -32,7 +33,11 @@ export function WelcomeContent(props) {
               Seja <span>bem vindo(a)</span> ao meu portfólio!
             </p>
 
+            <SocialMediaLinks className="socialMediaLinksStructure--toWelcome"/>
+
           </div>
+
+
 
         </div>
 
