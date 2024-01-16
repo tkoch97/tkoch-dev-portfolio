@@ -8,8 +8,11 @@ import { KnowledgeContent } from '../../components/KnowledgeContent';
 import { MobileMenu } from '../../components/MobileMenu';
 import { ProjectsContent } from '../../components/ProjectsContent';
 import { WelcomeContent } from '../../components/WelcomeContent';
+import { useState } from 'react';
 
 function Page() {
+
+  const [isMenuMobileOpen, setIsMenuMobileOpen] = useState(false);
 
   const links = {
     link1: '#about',
@@ -22,11 +25,15 @@ function Page() {
   return (
     <div className='container'>
       <div className='container__mobileMenu'>
-        <MobileMenu/>
+        <MobileMenu 
+        isMenuMobileOpen={isMenuMobileOpen}
+        closeMenu ={() => setIsMenuMobileOpen(false)}
+        links={links}
+        />
       </div>
 
       <div className='container__NavBarr'>
-        <NavBarr links={links}/>
+        <NavBarr links={links} openMenu = {() => setIsMenuMobileOpen(true)}/>
       </div>
 
       <div className='container__main'>

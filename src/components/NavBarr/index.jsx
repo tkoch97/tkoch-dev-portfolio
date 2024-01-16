@@ -6,7 +6,7 @@ import brFlag from "../../assets/br-flag.svg";
 import PropTypes from 'prop-types';
 
 export function NavBarr(props) {
-  const { links } = props;
+  const { links, openMenu } = props;
 
   const scrollToTop = () => {
     window.scrollTo({
@@ -22,17 +22,17 @@ export function NavBarr(props) {
         <img className='navBarr__logo' src={logo} alt="logo" onClick={scrollToTop}/>
 
         <nav className='navBarr__nav'>
-          <Ancor title='Sobre' href={links.link1}/>
-          <Ancor title='Conhecimento' href={links.link2}/>
-          <Ancor title='Educação' href={links.link3}/>
-          <Ancor title='Projetos' href={links.link4}/>
-          <Ancor title='Contato' href={links.link5}/>
+          <Ancor title='Sobre' internalLink={links.link1}/>
+          <Ancor title='Conhecimento' internalLink={links.link2}/>
+          <Ancor title='Educação' internalLink={links.link3}/>
+          <Ancor title='Projetos' internalLink={links.link4}/>
+          <Ancor title='Contato' internalLink={links.link5}/>
           <img className='navBarr__languageButton' src={brFlag} alt="" />
         </nav>
 
 
         <button className='navBarr__openMenu'> 
-          <img src={openMenuButton} alt="Open menu button" />
+          <img src={openMenuButton} alt="abrir menu" onClick={openMenu}/>
         </button>
 
       </div>
@@ -47,4 +47,5 @@ NavBarr.propTypes = {
   link3: PropTypes.string,
   link4: PropTypes.string,
   link5: PropTypes.string,
+  openMenu: PropTypes.bool,
 };
