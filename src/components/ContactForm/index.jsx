@@ -32,11 +32,12 @@ export function ContactForm(props) {
     emailjs.send("service_2tf01vl", "template_6kb9hp4", templateParams, "YHmljYz7kEXcMhkzE")
     .then(() => {
       alert("Email enviado com sucesso! / Email sent successfully!")
+      setName('');
+      setEmail('')
+      setMessage('')
       document.querySelector(".contactFormStructure__name").value = '';
       document.querySelector(".contactFormStructure__email").value = '';
       document.querySelector(".contactFormStructure__message").value = '';
-
-      console.log(name, email, message)
     }, () => {
       alert(`Houvel algum erro ao enviar o aemail. Por favor, tente mais tarde./
       An error occurred while trying to send the e-mail. Please, try again later.`)
