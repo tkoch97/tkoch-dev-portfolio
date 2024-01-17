@@ -24,20 +24,35 @@ export function MobileMenu(props) {
 
         <nav className='mobileMenu__nav'>
 
-          <Ancor title='Sobre' internalLink={links.link1} closeMenu={closeMenu}/>
-          <Ancor title='Conhecimento' internalLink={links.link2} closeMenu={closeMenu}/>
-          <Ancor title='Educação' internalLink={links.link3} closeMenu={closeMenu}/>
-          <Ancor title='Projetos' internalLink={links.link4} closeMenu={closeMenu}/>
-          <Ancor title='Contato' internalLink={links.link5} closeMenu={closeMenu}/>
+          <Ancor className="ancorStructure--mobile" 
+          title='Sobre' 
+          internalLink={links.link1} 
+          closeMenu={closeMenu}/>
+          <Ancor className="ancorStructure--mobile"
+          title='Conhecimento' 
+          internalLink={links.link2} 
+          closeMenu={closeMenu}/>
+          <Ancor className="ancorStructure--mobile" 
+          title='Educação' 
+          internalLink={links.link3} 
+          closeMenu={closeMenu}/>
+          <Ancor className="ancorStructure--mobile" 
+          title='Projetos' 
+          internalLink={links.link4} 
+          closeMenu={closeMenu}/>
+          <Ancor className="ancorStructure--mobile" 
+          title='Contato' 
+          internalLink={links.link5} 
+          closeMenu={closeMenu}/>
 
+
+        </nav>
           <button className='mobileMenu__languageButton'>
             <img className='mobileMenu__languageFlag' src={brFlag} alt="" />
             <h2 className='mobileMenu__acronym'>
               POR
             </h2>
           </button>
-
-        </nav>
       </div>
     </>
   )
