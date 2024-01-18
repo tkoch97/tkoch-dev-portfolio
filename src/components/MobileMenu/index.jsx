@@ -1,11 +1,14 @@
 import './style.scss'
 import { Ancor } from '../Ancor';
 import PropTypes from 'prop-types';
-import brFlag from "../../assets/br-flag.svg";
+import { LanguageSwitcher } from '../LanguageSwitcher';
+import { useTranslation } from 'react-i18next';
 
 export function MobileMenu(props) {
-
+  
   const {isMenuMobileOpen, closeMenu, links} = props;
+  
+  const { t } = useTranslation();
 
   return(
 
@@ -25,34 +28,32 @@ export function MobileMenu(props) {
         <nav className='mobileMenu__nav'>
 
           <Ancor className="ancorStructure--mobile" 
-          title='Sobre' 
+          title={t("ancorAbout")} 
           internalLink={links.link1} 
           closeMenu={closeMenu}/>
           <Ancor className="ancorStructure--mobile"
-          title='Conhecimento' 
+          title={t("ancorKnowledge")} 
           internalLink={links.link2} 
           closeMenu={closeMenu}/>
           <Ancor className="ancorStructure--mobile" 
-          title='Educação' 
+          title={t("ancorEducation")} 
           internalLink={links.link3} 
           closeMenu={closeMenu}/>
           <Ancor className="ancorStructure--mobile" 
-          title='Projetos' 
+          title={t("ancorProjects")}
           internalLink={links.link4} 
           closeMenu={closeMenu}/>
           <Ancor className="ancorStructure--mobile" 
-          title='Contato' 
+          title={t("ancorContact")} 
           internalLink={links.link5} 
           closeMenu={closeMenu}/>
 
-
         </nav>
-          <button className='mobileMenu__languageButton'>
-            <img className='mobileMenu__languageFlag' src={brFlag} alt="" />
-            <h2 className='mobileMenu__acronym'>
-              POR
-            </h2>
-          </button>
+
+        <div className='mobileMenu__changeLanguage'>
+          <LanguageSwitcher/>
+        </div>
+          
       </div>
     </>
   )

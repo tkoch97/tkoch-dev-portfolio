@@ -1,5 +1,9 @@
 {
   "translation": {
-
+    "ancorAbout": "About",
+    "ancorKnowledge": "Knowledge",
+    "ancorEducation": "Education",
+    "ancorProjects": "Projects",
+    "ancorContact": "Contact"
   }
 }

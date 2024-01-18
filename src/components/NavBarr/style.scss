@@ -5,7 +5,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 2.5rem 7.0rem;
+  padding: 2.0rem 5.0rem 2.0rem 7.0rem;
   position: fixed;
   background-color: $dark-300;
   border-bottom: 0.5px solid $light-200;
@@ -28,15 +28,6 @@
     gap: 2.0rem;
     justify-self: end;
   
-    @media screen and (max-width: map-get($DEVICE_BREAKPOINTS, MD)) {
-      display: none;
-    }
-  }
-
-  .navBarr__languageButton {
-
-    cursor: pointer;
-
     @media screen and (max-width: map-get($DEVICE_BREAKPOINTS, MD)) {
       display: none;
     }
