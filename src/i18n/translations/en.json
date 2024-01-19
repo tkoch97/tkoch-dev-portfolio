@@ -5,12 +5,23 @@
     "ancorEducation": "Education",
     "ancorProjects": "Projects",
     "ancorContact": "Contact",
+
     "welcomeContent_altOfPhoto": "a white man with a beard and black hair, smiling and wearing a black winter cap with a headset in his ear",
     "welcomeContent_introductionHelloI'm":"Hello! I'm",
     "welcomeContent_professionalTitle":"Fullstack ",
     "welcomeContent_professionalTitleSpan":"web developer.",
     "welcomeContent_saluteSpan":"Welcome ",
     "welcomeContent_salute":"to my portfolio!",
-    "welcomeContent__textButton": "COME ON WITH ME"
+    "welcomeContent_textButton": "COME ON WITH ME",
+
+    "aboutContent_titleText":"About me",
+    "aboutData_myStartTitle": "My start:",
+    "aboutData_myStartText": "My journey into technology began in childhood, exploring the typical PCs of the 2000s. When I was a teenager, I started creating custom content for The Sims game using Photoshop, which led me to graphic design. In 2021, a friend introduced me to web development, especially front-end development, which sparked my interest in the area. I started studying HTML and CSS, then decided to delve deeper into the area. I entered higher education and also started studying web development at Rocketseat (a Brazilian programming course), where I also learned about back-end development and immersed myself in the tech community.",
+    "aboutData_currentObjectiveTitle": "Current objective:",
+    "aboutData_currentObjectiveText": "After a year of study and immersion, I'm looking to apply my knowledge in a dynamic professional environment. I'm excited to contribute to collaborative teams, sharing skills, adding value and learning from experienced colleagues. I highly value continuous learning and I'm ready to absorb new knowledge and put it into practice. My commitment to personal and professional growth is solid, and I am determined to make a significant contribution in any team I am in.",
+    "aboutData_curiosityTitle": "Curiosity",
+    "aboutData_curiosityText": "In addition to programming and design, I have a passion for entrepreneurship. In November 2023, I started DressCode Company, a clothing brand focused on the dev community. When I was looking for programming-themed t-shirts and couldn't find any that suited me, I decided to create my own prints and share them with the community.",
+    
+    "KnowledgeContent_titleText":"Knowledge"
   }
 }
