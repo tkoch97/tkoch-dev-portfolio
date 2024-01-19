@@ -1,16 +1,19 @@
 import './style.scss';
-import { aboutData } from '../../utils/aboutData';
+import { AboutData } from '../../utils/aboutData';
 import { SectionsTitle } from '../SectionsTitle';
+import { useTranslation } from 'react-i18next';
 
 export function AboutContent() {
 
-  const subjects = aboutData;
+  const {t} = useTranslation();
+
+  const subjects = AboutData();
 
   return (
     <>
       <div className='aboutContent'>
 
-        <SectionsTitle text='Sobre mim'/>
+        <SectionsTitle text={t("aboutContent_titleText")}/>
 
         <div className='aboutContent__main'>
           {subjects.map(subject => (
