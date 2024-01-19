@@ -4,6 +4,13 @@
     "ancorKnowledge": "Knowledge",
     "ancorEducation": "Education",
     "ancorProjects": "Projects",
-    "ancorContact": "Contact"
+    "ancorContact": "Contact",
+    "welcomeContent_altOfPhoto": "a white man with a beard and black hair, smiling and wearing a black winter cap with a headset in his ear",
+    "welcomeContent_introductionHelloI'm":"Hello! I'm",
+    "welcomeContent_professionalTitle":"Fullstack ",
+    "welcomeContent_professionalTitleSpan":"web developer.",
+    "welcomeContent_saluteSpan":"Welcome ",
+    "welcomeContent_salute":"to my portfolio!",
+    "welcomeContent__textButton": "COME ON WITH ME"
   }
 }

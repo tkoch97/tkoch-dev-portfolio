@@ -4,6 +4,13 @@
     "ancorKnowledge": "Conhecimento",
     "ancorEducation": "Educação",
     "ancorProjects": "Projetos",
-    "ancorContact": "Contato"
+    "ancorContact": "Contato",
+    "welcomeContent_altOfPhoto": "homem branco com barba e cabelos pretos, sorrindo e usando uma touca preta e com headset no ouvido",
+    "welcomeContent_introductionHelloI'm":"Olá! Eu sou o",
+    "welcomeContent_professionalTitle":"Desenvolvedor web ",
+    "welcomeContent_professionalTitleSpan":"fullstack.",
+    "welcomeContent_saluteSpan":"Bem vindo(a) ",
+    "welcomeContent_salute":"ao meu portfólio!",
+    "welcomeContent__textButton": "VEM COMIGO"
   }
 }
