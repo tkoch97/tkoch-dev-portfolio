@@ -22,6 +22,18 @@
     "aboutData_curiosityTitle": "Curiosity",
     "aboutData_curiosityText": "In addition to programming and design, I have a passion for entrepreneurship. In November 2023, I started DressCode Company, a clothing brand focused on the dev community. When I was looking for programming-themed t-shirts and couldn't find any that suited me, I decided to create my own prints and share them with the community.",
     
-    "KnowledgeContent_titleText":"Knowledge"
+    "KnowledgeContent_titleText":"Knowledge",
+
+    "educationContent_titleText":"Education",
+    "educationData_courseWebDev": "Web development",
+    "educationData_levelWebDev": "Higher education in technology",
+    "educationData_institutionWebDev": "Anhanguera Educacional",
+    "educationData_periodWebDev": "Since 08/2022 to date",
+    "educationData_aboutWebDev": "In the course I learn about computer logic, modeling, programming and database development, object-oriented language, interface and usability, responsive development and other subjects that involve web programming.",
+    "educationData_courseExplorer": "Explorer",
+    "educationData_levelExplorer": "Training course to enter the programming market",
+    "educationData_institutionExplorer": "Rocketseat",
+    "educationData_periodExplorer": "Since 09/2022 to date",
+    "educationData_aboutExplorer":"In the course I learn about the most widely used technologies and techniques today and put them into practice in many projects, using the concept of mobile first, DOM manipulation, Clean Code principles, ES6 Modules and others."
   }
 }
