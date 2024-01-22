@@ -1,15 +1,17 @@
 import './style.scss'
-import { educationData } from '../../utils/educationData';
+import { EducationData } from '../../utils/educationData';
 import { SectionsTitle } from '../SectionsTitle';
+import { useTranslation } from 'react-i18next';
 
 export function EducationContent() {
-
-  const informations = educationData;
+  
+  const {t} = useTranslation();
+  const informations = EducationData();
 
   return (
     <>
     <div className='educationContent'>
-      <SectionsTitle text='Educação'/>
+      <SectionsTitle text={t("educationContent_titleText")}/>
 
       <div className='educationContent__main'>
         {informations.map(information => (
