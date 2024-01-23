@@ -3,13 +3,18 @@ import { Button } from '../Button';
 import PropTypes from 'prop-types';
 import { TecnologieTag } from '../TecnologieTag'
 import { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 
 
 export function ProjectCard(props) {
 
   const {data} = props;
 
+  const {t} = useTranslation();
+
   const [isHovered, setIsHovered] = useState(false);
+  
+  console.log(data.tecnologies)
 
   const setTecnologieTagGreen = () => {
     setIsHovered(true)
@@ -42,7 +47,7 @@ export function ProjectCard(props) {
         </div>
         
         <div className="projectCardStructure__buttons">
-          <Button className="buttonStructure" title="Repositório" externalLink={data.repository}/>
+          <Button className="buttonStructure" title={t("projectCard_repositoryButtonText")} externalLink={data.repository}/>
           <Button className="buttonStructure--transparent" title="Deploy" externalLink={data.deploy}/>
         </div>
       </div>
