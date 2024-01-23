@@ -3,10 +3,13 @@ import { Button } from '../Button';
 import './style.scss';
 import PropTypes from 'prop-types';
 import emailjs from '@emailjs/browser';
+import { useTranslation } from 'react-i18next';
 
 export function ContactForm(props) {
 
   const {placeholders} = props;
+
+  const {t} = useTranslation();
 
   const[name, setName] = useState('')
   const[email, setEmail] = useState('')
@@ -66,7 +69,7 @@ export function ContactForm(props) {
       />
       
       <div className='contactFormStructue__button'>
-        <Button type='submit' title='ENVIAR'/>
+        <Button type='submit' title={t("contactForm_submitButtonText")}/>
       </div>
 
     </form>

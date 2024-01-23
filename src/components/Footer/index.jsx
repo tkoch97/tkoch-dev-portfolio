@@ -1,8 +1,12 @@
 import './style.scss'
 import logo from "../../assets/logo-tkoch-sem-fundo.png";
 import { SocialMediaLinks } from '../SocialMediaLinks';
+import { useTranslation } from 'react-i18next';
 
 export function Footer() {
+
+const {t} = useTranslation();
+
  return(
   <>
     <div className='footer'>
@@ -14,7 +18,7 @@ export function Footer() {
             © 2023 Thiago Koch Martins
           </p>
           <p className='footer__copyright_p2'>
-            Todos os direitos reservados
+            {t("footer_copyright_p2_text")}
           </p>
         </div>
 

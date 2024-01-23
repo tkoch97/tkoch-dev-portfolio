@@ -15,11 +15,11 @@
 
     "aboutContent_titleText":"Sobre mim",
     "aboutData_myStartTitle": "Meu início:",
-    "aboutData_myStartText": "Minha jornada na tecnologia começou na infância, explorando aqueles típicos PCs dos anos 2000. Na adolescência, criei conteúdo personalizado para o jogo The Sims usando Photoshop, o que me levou ao design gráfico. Em 2021, um amigo me apresentou o desenvolvimento web, especialmente o front-end, despertando meu interesse pela área. Estudei HTML, CSS, e após alguns projetos pessoais, decidi me aprofundar. Ingressei no curso superior de desenvolvimento web e na Rocketseat, onde aprendi também sobre o desenvolvimento back-end e mergulhei na comunidade tech.",
+    "aboutData_myStartText": "Minha jornada na tecnologia começou na infância, explorando aqueles típicos PCs dos anos 2000. Na adolescência, criei conteúdo personalizado para o jogo The Sims usando Photoshop, o que me levou ao design gráfico. Em 2021, um amigo me apresentou o desenvolvimento web e, especialmente o front-end, despertou meu interesse pela área. Após estudar e criar alguns projetinhos usando HTML e CSS, decidi me aprofundar, portanto ingressei no curso superior de desenvolvimento web e na Rocketseat, plataforma de especialização em programação.",
     "aboutData_currentObjectiveTitle": "Objetivo atual:",
-    "aboutData_currentObjectiveText": "Após um ano de estudo e imersão, busco aplicar meus conhecimentos em um ambiente profissional dinâmico. Estou animado para contribuir em equipes colaborativas, compartilhando habilidades, agregando valor e aprendendo com colegas experientes. Valorizo muito o aprendizado contínuo e estou pronto para absorver novos conhecimentos e coloca-los em prática. Meu compromisso com o crescimento pessoal e profissional é sólido, e estou determinado a fazer uma contribuição significativa em qualquer equipe em que eu esteja.",
+    "aboutData_currentObjectiveText": "Busco aplicar meus conhecimentos em um ambiente profissional dinâmico. Estou animado para contribuir em equipes colaborativas, compartilhando habilidades, agregando valor e aprendendo com colegas experientes. Valorizo muito o aprendizado contínuo e estou pronto para absorver novos conhecimentos e coloca-los em prática. Meu compromisso com o crescimento pessoal e profissional é sólido, valorizo a disciplina e a constância.",
     "aboutData_curiosityTitle": "Curiosidade",
-    "aboutData_curiosityText": "Além de programação e design, tenho paixão por empreendedorismo. Em novembro de 2023, comecei a DressCode Company, uma marca de vestuário focada na comunidade dev. Ao buscar camisetas com a temática de programação e não encontrar opções muito satisfatórias pra mim, decidi criar minhas próprias estampas e compartilhá-las para que a comunidade também pudesse adquirir.",
+    "aboutData_curiosityText": "Além de programação e design, tenho paixão por empreendedorismo. Em novembro de 2023, comecei a DressCode Company, uma marca de vestuário focada na comunidade dev. Ao buscar camisetas com a temática de programação e não encontrar opções muito satisfatórias, decidi criar minhas próprias estampas e compartilhá-las para que a comunidade também pudesse adquirir.",
   
     "KnowledgeContent_titleText":"Conhecimento",
 
@@ -33,6 +33,23 @@
     "educationData_levelExplorer": "Curso de formação para iniciar no mercado de programação",
     "educationData_institutionExplorer": "Rocketseat",
     "educationData_periodExplorer": "De 09/2022 até atualmente",
-    "educationData_aboutExplorer": "No curso eu aprendo sobre as tecnologias e técnicas mais utilizadas na atualidade e as ponho em prática em muitos projetos, utilizando o conceito de mobile first, manipulação de DOM, princípios de Clean Code, ES6 Modules, entre outros."
+    "educationData_aboutExplorer": "No curso eu aprendo sobre as tecnologias e técnicas mais utilizadas na atualidade e as ponho em prática em muitos projetos, utilizando o conceito de mobile first, manipulação de DOM, princípios de Clean Code, ES6 Modules, entre outros.",
+  
+    "projectsContent_titleText":"Projetos",
+    "projectCard_repositoryButtonText":"Repositório",
+    "projectsData_descriptionRocketNotes":"Aplicação para o usuário criar notas e guardá-las na sua conta, permitindo pesquisas por título. Trabalhei com CRUD, token de autenticação e encriptação de senha.",
+    "projectsData_descriptionSPLabs" : "Landing page criada para um desafio técnico. Nela tive que desenvolver uma janela de chat dinâmica conectada à API disponibilizada pela empresa, que simula um assistente virtual e responde mensagens que abrangem um grupo de comandos, como 'piada', 'comandos', 'teste', etc. Suporte apenas para o português.",
+    "projectsData_descriptionPokemonGallery" : "Página web que agrupa 200 espécies de pokemons, distribuídos 10 por página. Criei também uma caixa de pesquisa por nome. Cada carta tem o nome do pokemon e o seu tipo.",
+    "projectsData_descriptionGitFav" : "Neste projeto o usuário pode criar uma lista privada com seus usuários favoritos do Github, a qual listará o número de repositórios públicos e seguidores dos mesmos, além de seu nome e id do github.",
+    "projectsData_descriptionFocusTimer2.1" : "Temporizador baseado no método de foco pomodoro. Ele começa com 25 minutos (por padrão). Mas o usuário pode manipular o tempo com os botões de adição e subtração. Há também um botão de modo escuro e quatro botões com sons de fundo, simulando diferentes ambientes, como chuva e uma cafeteria.",
+    "projectsData_descriptionSPAUniverse" : "Página em SPA (Single-Page Application) desenvolvida apenas com JS, HTML e CSS. Ela contém informações básicas e curiosidades do universo.",
+
+    "contactContent_titleText" : "Me envie um e-mail através do formulário abaixo.",
+    "contactForm_nameInputPlaceholder" : "Seu nome.",
+    "contactForm_emailAddressInputPlaceholder" : "Seu endereço de e-mail.",
+    "contactForm_messageInputPlaceholder" : "Escreve sua mensagem aqui.",
+    "contactForm_submitButtonText": "ENVIAR",
+
+    "footer_copyright_p2_text":"Todos os direitos reservados"
   }
 }

@@ -1,14 +1,17 @@
+import { useTranslation } from 'react-i18next'
 import { ContactForm } from '../ContactForm'
 import { SocialMediaLinks } from '../SocialMediaLinks'
 import './style.scss'
 
 export function ContactContent() {
 
+  const {t} = useTranslation();
+
   const placeholders = [
     {
-      name:"Seu nome",
-      email:"Seu email",
-      message:"Escreva sua mensagem aqui",
+      name:t("contactForm_nameInputPlaceholder"),
+      email:t("contactForm_emailAddressInputPlaceholder"),
+      message:t("contactForm_messageInputPlaceholder"),
     }
   ]
 
@@ -17,7 +20,7 @@ export function ContactContent() {
       <div className='contactContent'>
 
         <h2 className='contactContent__title'>
-          Me envie um email através do formulário abaixo
+          {t("contactContent_titleText")}
         </h2>
 
         <ContactForm placeholders={placeholders}/>
