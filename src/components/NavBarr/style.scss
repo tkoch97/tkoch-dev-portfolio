@@ -1,4 +1,7 @@
 @import '../../styles/themes';
+@import '../../styles/animations.scss';
+
+
 
 .navBarr {
   display: flex;
@@ -10,6 +13,7 @@
   background-color: $dark-300;
   border-bottom: 0.5px solid $light-200;
   width: 100%;
+  animation: topdown 2s;
 
   @media screen and (max-width: map-get($DEVICE_BREAKPOINTS, MD)) {
     justify-content: center;
