@@ -37,7 +37,7 @@ export function WelcomeContent(props) {
             <p className='welcomeContent__salute'>
               <span>{t("welcomeContent_saluteSpan")}</span>{t("welcomeContent_salute")}
             </p>
-
+            
             <SocialMediaLinks className="socialMediaLinksStructure--toWelcome"/>
 
           </div>
