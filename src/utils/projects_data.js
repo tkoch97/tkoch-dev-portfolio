@@ -9,7 +9,7 @@ const {t} = useTranslation();
       title: 'Rocket Notes',
       image: `https://raw.githubusercontent.com/tkoch97/rocket-notes-front/main/public/github/img/preview.png`,
       description: t("projectsData_descriptionRocketNotes"),
-      tecnologies: ["JavaScript", "React", "Styled Components", "NodeJs", "ViteJs"],
+      tecnologies: ["JavaScript", "React", "Styled Components", "NodeJs", "SQLite", "Knex", "ViteJs"],
       repository: `https://github.com/tkoch97/rocket-notes-front`,
       deploy: `https://rocketnotes-tkoch.netlify.app/`
     },
