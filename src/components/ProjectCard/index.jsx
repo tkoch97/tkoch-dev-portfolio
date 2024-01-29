@@ -13,8 +13,6 @@ export function ProjectCard(props) {
   const {t} = useTranslation();
 
   const [isHovered, setIsHovered] = useState(false);
-  
-  console.log(data.tecnologies)
 
   const setTecnologieTagGreen = () => {
     setIsHovered(true)
