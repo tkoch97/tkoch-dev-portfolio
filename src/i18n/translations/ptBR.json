@@ -49,6 +49,10 @@
     "contactForm_emailAddressInputPlaceholder" : "Seu endereço de e-mail.",
     "contactForm_messageInputPlaceholder" : "Escreva sua mensagem aqui.",
     "contactForm_submitButtonText": "ENVIAR",
+    "contactForm_alertCompleteAllForm": "Por favor, preencha todos os campos",
+    "contactForm_alertWriteAValidEmailAddress": "Por favor, insira um endereço de e-mail válido.",
+    "contactForm_alertMsgSuccess": "Email enviado com sucesso! Obrigado pelo contato, responderei o mais breve possível.",
+    "contactForm_alertMsgError": "Houve algum erro ao enviar a mensagem. Por favor, tente mais tarde.",
 
     "footer_copyright_p2_text":"Todos os direitos reservados"
   }

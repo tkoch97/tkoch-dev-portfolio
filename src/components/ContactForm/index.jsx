@@ -21,9 +21,9 @@ export function ContactForm(props) {
     const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   
     if(!name || !email || !message) {
-      return alert("Por favor, preencha todos os campos")
+      return alert(t("contactForm_alertCompleteAllForm"))
     } else if (!emailPattern.test(email)) {
-      return alert("Por favor, insira um endereço de e-mail válido.")
+      return alert(t("contactForm_alertWriteAValidEmailAddress"))
     }
 
     const templateParams = {
@@ -34,7 +34,7 @@ export function ContactForm(props) {
 
     emailjs.send("service_2tf01vl", "template_6kb9hp4", templateParams, "YHmljYz7kEXcMhkzE")
     .then(() => {
-      alert("Email enviado com sucesso! / Email sent successfully!")
+      alert(t("contactForm_alertMsgSuccess"))
       setName('');
       setEmail('')
       setMessage('')
@@ -42,8 +42,7 @@ export function ContactForm(props) {
       document.querySelector(".contactFormStructure__email").value = '';
       document.querySelector(".contactFormStructure__message").value = '';
     }, () => {
-      alert(`Houvel algum erro ao enviar o aemail. Por favor, tente mais tarde./
-      An error occurred while trying to send the e-mail. Please, try again later.`)
+      alert(t("contactForm_alertMsgError"))
     })
   }
 

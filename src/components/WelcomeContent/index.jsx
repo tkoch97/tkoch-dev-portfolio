@@ -42,8 +42,6 @@ export function WelcomeContent(props) {
 
           </div>
 
-
-
         </div>
 
         <div className='welcomeContent__actionButton'>
