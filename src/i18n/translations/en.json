@@ -50,6 +50,10 @@
     "contactForm_emailAddressInputPlaceholder" : "Your e-mail address.",
     "contactForm_messageInputPlaceholder" : "Write your message here.",
     "contactForm_submitButtonText": "SEND",
+    "contactForm_alertCompleteAllForm": "Please, complete the all form.",
+    "contactForm_alertWriteAValidEmailAddress": "Please, insert a valid e-mail address.",
+    "contactForm_alertMsgSuccess": "Email sent successfully! Thanks for your contact, I will reply you as soon as possible.",
+    "contactForm_alertMsgError": "An error occurred while trying to send the e-mail. Please, try again later.",
 
     "footer_copyright_p2_text":"All rights reserved"
 
