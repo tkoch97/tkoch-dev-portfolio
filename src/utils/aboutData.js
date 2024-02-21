@@ -11,10 +11,6 @@ export const AboutData = () => {
 			text: t("aboutData_myStartText")
 		},
 		{
-			title: t("aboutData_currentObjectiveTitle"),
-			text: t("aboutData_currentObjectiveText")
-		},
-		{
 			title: t("aboutData_curiosityTitle"),
 			text: t("aboutData_curiosityText")
 		}
