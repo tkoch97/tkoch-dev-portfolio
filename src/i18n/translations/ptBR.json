@@ -37,7 +37,8 @@
   
     "projectsContent_titleText":"Projetos",
     "projectCard_repositoryButtonText":"Repositório",
-    "projectsData_descriptionRocketNotes":"Aplicação para o usuário criar notas e guardá-las na sua conta, permitindo pesquisas por título. Trabalhei com CRUD, token de autenticação e encriptação de senha.",
+    "projectsData_descriptionFoodExplorer": "Aplicação que simula o cardápio de um restaurante, onde duas personas podem acessar, um admin e um cliente. o cliente pode visualizar o cardápio, buscar pratos e ver detalhes de pratos específicos. O admin, além das mesmas funções do cliente, também pode fazer o gerenciamento, adicionando novos pratos e editando ou excluindo os existentes.",
+    "projectsData_descriptionRocketNotes":"Aplicação para o usuário criar notas e guardá-las na sua conta, permitindo pesquisas por título ou por tags usando o menu interativo. Além disso ele também pode configurar seu perfil, adicionando uma imagem de usuário personalizada. Trabalhei com CRUD, token de autenticação e criptografia de senha.",
     "projectsData_descriptionSPLabs" : "Landing page criada para um desafio técnico. Nela tive que desenvolver uma janela de chat dinâmica conectada à API disponibilizada pela empresa, que simula um assistente virtual e responde mensagens que abrangem um grupo de comandos, como 'piada', 'comandos', 'teste', etc. Suporte apenas para o português.",
     "projectsData_descriptionPokemonGallery" : "Página web que agrupa 200 espécies de pokemons, distribuídos 10 por página. Criei também uma caixa de pesquisa por nome. Cada carta tem o nome do pokemon e o seu tipo.",
     "projectsData_descriptionGitFav" : "Neste projeto o usuário pode criar uma lista privada com seus usuários favoritos do Github, a qual listará o número de repositórios públicos e seguidores dos mesmos, além de seu nome e id do github.",

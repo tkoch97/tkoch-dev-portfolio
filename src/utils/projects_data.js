@@ -4,7 +4,15 @@ export function ProjectsData() {
 
 const {t} = useTranslation();
 
-  const projectsData = [
+const projectsData = [
+    {
+      title: 'Food Explorer',
+      image: `https://i.pinimg.com/736x/bc/25/b5/bc25b541301760cc63621681af25ff16.jpg`,
+      description: t("projectsData_descriptionFoodExplorer"),
+      tecnologies: ["JavaScript", "React", "Styled Components", "NodeJs", "SQLite", "Knex", "ViteJs"],
+      repository: `https://github.com/tkoch97/rocket-notes-front`,
+      deploy: `https://food-explorer-front-eosin.vercel.app/`
+    },
     {
       title: 'Rocket Notes',
       image: `https://raw.githubusercontent.com/tkoch97/rocket-notes-front/main/public/github/img/preview.png`,
