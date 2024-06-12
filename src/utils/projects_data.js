@@ -10,7 +10,7 @@ const projectsData = [
       image: `https://i.pinimg.com/736x/bc/25/b5/bc25b541301760cc63621681af25ff16.jpg`,
       description: t("projectsData_descriptionFoodExplorer"),
       tecnologies: ["JavaScript", "React", "Styled Components", "NodeJs", "SQLite", "Knex", "ViteJs"],
-      repository: `https://github.com/tkoch97/rocket-notes-front`,
+      repository: `https://github.com/tkoch97/food-explorer-front`,
       deploy: `https://food-explorer-front-eosin.vercel.app/`
     },
     {
