@@ -18,24 +18,24 @@ export function WelcomeContent(props) {
         <div className='welcomeContent__main'>
 
           <img  className='welcomeContent__myPhoto' src={myPhotoWelcome} 
-          alt={t("welcomeContent_altOfPhoto")}/>
+          alt={t("welcomeSection.welcomeContent_altOfPhoto")}/>
 
           <div className='welcomeContent__textsContainer'>
 
             <h1 className='welcomeContent__introduction'>
-              {t("welcomeContent_introductionHelloI'm")} <span>Thiago,</span>
+              {t("welcomeSection.welcomeContent_introductionHelloI'm")} <span>Thiago,</span>
             </h1>
 
             <h1 className='welcomeContent__professionalTitle' 
             style={{color: i18n.language === "ptBR" ? "#fff" : "#0CBAB4"}}>
-              {t("welcomeContent_professionalTitle")}
+              {t("welcomeSection.welcomeContent_professionalTitle")}
               <span style={{color: i18n.language === "en" ? "#fff" : ""}}>
-                {t("welcomeContent_professionalTitleSpan")}
+                {t("welcomeSection.welcomeContent_professionalTitleSpan")}
               </span>
             </h1>
 
             <p className='welcomeContent__salute'>
-              <span>{t("welcomeContent_saluteSpan")}</span>{t("welcomeContent_salute")}
+              <span>{t("welcomeSection.welcomeContent_saluteSpan")}</span>{t("welcomeSection.welcomeContent_salute")}
             </p>
             
             <SocialMediaLinks className="socialMediaLinksStructure--toWelcome"/>
@@ -45,7 +45,7 @@ export function WelcomeContent(props) {
         </div>
 
         <div className='welcomeContent__actionButton'>
-          <Button className='buttonStructure--withArrow' title={t("welcomeContent_textButton")} icon={HiOutlineArrowLongDown} internalLink={link}/>
+          <Button className='buttonStructure--withArrow' title={t("welcomeSection.welcomeContent_textButton")} icon={HiOutlineArrowLongDown} internalLink={link}/>
         </div>
       </div>
       

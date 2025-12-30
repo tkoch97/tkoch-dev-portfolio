@@ -12,7 +12,7 @@ export function KnowledgeContent() {
     <>
       <div className='knowledgeContent'>
 
-        <SectionsTitle text={t("KnowledgeContent_titleText")}/>
+        <SectionsTitle text={t("knowledgeContent_titleText")}/>
 
         <div className='knowledgeContent__tecnologies'>
           {tecnologiesData.map(tecnologie =>(

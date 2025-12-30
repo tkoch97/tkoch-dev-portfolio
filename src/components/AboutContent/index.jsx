@@ -20,17 +20,32 @@ export function AboutContent() {
     <>
       <div className='aboutContent'>
 
-        <SectionsTitle text={t("aboutContent_titleText")}/>
+        <SectionsTitle text={t("aboutSection.aboutContent_titleText")}/>
 
         <div className='aboutContent__main'>
           {subjects.map(subject => (
             <div className='aboutContent__subjectBlock' key={subject.title}>
-              <h2 className='aboutContent__subjectTitle'>
+              {/* <h2 className='aboutContent__subjectTitle'>
                 {subject.title}
-              </h2>
+              </h2> */}
               <p className='aboutContent__subjectText'>
                 <ReactMarkdown components={insertColorAndTargetBlankOnAncor}>
-                  {subject.text}
+                  {subject.paragraph1}
+                </ReactMarkdown>
+              </p>
+              <p className='aboutContent__subjectText'>
+                <ReactMarkdown components={insertColorAndTargetBlankOnAncor}>
+                  {subject.paragraph2}
+                </ReactMarkdown>
+              </p>
+              <p className='aboutContent__subjectText'>
+                <ReactMarkdown components={insertColorAndTargetBlankOnAncor}>
+                  {subject.paragraph3}
+                </ReactMarkdown>
+              </p>
+              <p className='aboutContent__subjectText'>
+                <ReactMarkdown components={insertColorAndTargetBlankOnAncor}>
+                  {subject.paragraph4}
                 </ReactMarkdown>
               </p>
             </div>

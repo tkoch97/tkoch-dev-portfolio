@@ -25,11 +25,11 @@ export function NavBarr(props) {
         <img className='navBarr__logo' src={logo} alt="logo" onClick={scrollToTop}/>
 
         <nav className='navBarr__nav'>
-          <Ancor title={t("ancorAbout")} internalLink={links.link1}/>
-          <Ancor title={t("ancorKnowledge")} internalLink={links.link2}/>
-          <Ancor title={t("ancorEducation")} internalLink={links.link3}/>
-          <Ancor title={t("ancorProjects")} internalLink={links.link4}/>
-          <Ancor title={t("ancorContact")} internalLink={links.link5}/>
+          <Ancor title={t("menuAncors.ancorAbout")} internalLink={links.link1}/>
+          <Ancor title={t("menuAncors.ancorKnowledge")} internalLink={links.link2}/>
+          <Ancor title={t("menuAncors.ancorEducation")} internalLink={links.link3}/>
+          <Ancor title={t("menuAncors.ancorProjects")} internalLink={links.link4}/>
+          <Ancor title={t("menuAncors.ancorContact")} internalLink={links.link5}/>
           <div className='navBarr__changeLanguage'>
             <LanguageSwitcher/>
           </div>
