@@ -5,12 +5,11 @@ export const AboutData = () => {
 
   const aboutData = [
     {
-      title: t("aboutData_myStartTitle"),
-      text: t("aboutData_myStartText"),
-    },
-    {
-      title: t("aboutData_curiosityTitle"),
-      text: t("aboutData_curiosityText"),
+      title: t("aboutSection.aboutData_myStartTitle"),
+      paragraph1: t("aboutSection.aboutData_myStartTextParagraph1"),
+      paragraph2: t("aboutSection.aboutData_myStartTextParagraph2"),
+      paragraph3: t("aboutSection.aboutData_myStartTextParagraph3"),
+      paragraph4: t("aboutSection.aboutData_myStartTextParagraph4"),
     },
   ];
 

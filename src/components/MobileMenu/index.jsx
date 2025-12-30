@@ -28,23 +28,23 @@ export function MobileMenu(props) {
         <nav className='mobileMenu__nav'>
 
           <Ancor className="ancorStructure--mobile" 
-          title={t("ancorAbout")} 
+          title={t("menuAncors.ancorAbout")} 
           internalLink={links.link1} 
           closeMenu={closeMenu}/>
           <Ancor className="ancorStructure--mobile"
-          title={t("ancorKnowledge")} 
+          title={t("menuAncors.ancorKnowledge")} 
           internalLink={links.link2} 
           closeMenu={closeMenu}/>
           <Ancor className="ancorStructure--mobile" 
-          title={t("ancorEducation")} 
+          title={t("menuAncors.ancorEducation")} 
           internalLink={links.link3} 
           closeMenu={closeMenu}/>
           <Ancor className="ancorStructure--mobile" 
-          title={t("ancorProjects")}
+          title={t("menuAncors.ancorProjects")}
           internalLink={links.link4} 
           closeMenu={closeMenu}/>
           <Ancor className="ancorStructure--mobile" 
-          title={t("ancorContact")} 
+          title={t("menuAncors.ancorContact")} 
           internalLink={links.link5} 
           closeMenu={closeMenu}/>
 

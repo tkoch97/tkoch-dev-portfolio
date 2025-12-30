@@ -45,7 +45,7 @@ export function ProjectCard(props) {
         </div>
         
         <div className="projectCardStructure__buttons">
-          <Button className="buttonStructure" title={t("projectCard_repositoryButtonText")} externalLink={data.repository}/>
+          <Button className="buttonStructure" title={t("projectsSection.projectCard_repositoryButtonText")} externalLink={data.repository}/>
           <Button className="buttonStructure--transparent" title="Deploy" externalLink={data.deploy}/>
         </div>
       </div>

@@ -11,7 +11,7 @@ export function EducationContent() {
   return (
     <>
     <div className='educationContent'>
-      <SectionsTitle text={t("educationContent_titleText")}/>
+      <SectionsTitle text={t("educationSection.educationContent_titleText")}/>
 
       <div className='educationContent__main'>
         {informations.map(information => (

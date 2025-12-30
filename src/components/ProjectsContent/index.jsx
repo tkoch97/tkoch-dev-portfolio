@@ -13,7 +13,7 @@ export function ProjectsContent() {
   return(
     <>
       <div className='projectsContent'>
-        <SectionsTitle text={t("projectsContent_titleText")}/>
+        <SectionsTitle text={t("projectsSection.projectsContent_titleText")}/>
 
         <div className='projectsContent__main'>
           {projectsData.map(projectData => (
