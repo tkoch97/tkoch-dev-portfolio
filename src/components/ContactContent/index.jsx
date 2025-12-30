@@ -9,9 +9,9 @@ export function ContactContent() {
 
   const placeholders = [
     {
-      name:t("contactForm_nameInputPlaceholder"),
-      email:t("contactForm_emailAddressInputPlaceholder"),
-      message:t("contactForm_messageInputPlaceholder"),
+      name:t("contactSection.contactForm_nameInputPlaceholder"),
+      email:t("contactSection.contactForm_emailAddressInputPlaceholder"),
+      message:t("contactSection.contactForm_messageInputPlaceholder"),
     }
   ]
 
@@ -20,7 +20,7 @@ export function ContactContent() {
       <div className='contactContent'>
 
         <h2 className='contactContent__title'>
-          {t("contactContent_titleText")}
+          {t("contactSection.contactContent_titleText")}
         </h2>
 
         <ContactForm placeholders={placeholders}/>

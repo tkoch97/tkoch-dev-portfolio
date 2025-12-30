@@ -6,18 +6,18 @@ export function EducationData() {
 
 	const educationData = [
 		{
-			course: t("educationData_courseWebDev"),
-			level: t("educationData_levelWebDev"),
-			institution: t("educationData_institutionWebDev"),
-			period: t("educationData_periodWebDev"),
-			about: t("educationData_aboutWebDev")
+			course: t("educationSection.educationData_courseWebDev"),
+			level: t("educationSection.educationData_levelWebDev"),
+			institution: t("educationSection.educationData_institutionWebDev"),
+			period: t("educationSection.educationData_periodWebDev"),
+			about: t("educationSection.educationData_aboutWebDev")
 		},
 		{
-			course: t("educationData_courseExplorer"),
-			level: t("educationData_levelExplorer"),
-			institution: t("educationData_institutionExplorer"),
-			period: t("educationData_periodExplorer"),
-			about: t("educationData_aboutExplorer")
+			course: t("educationSection.educationData_courseExplorer"),
+			level: t("educationSection.educationData_levelExplorer"),
+			institution: t("educationSection.educationData_institutionExplorer"),
+			period: t("educationSection.educationData_periodExplorer"),
+			about: t("educationSection.educationData_aboutExplorer")
 		}
 	]
 

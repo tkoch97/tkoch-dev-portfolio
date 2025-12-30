@@ -21,9 +21,9 @@ export function ContactForm(props) {
     const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   
     if(!name || !email || !message) {
-      return alert(t("contactForm_alertCompleteAllForm"))
+      return alert(t("contactSection.contactForm_alertCompleteAllForm"))
     } else if (!emailPattern.test(email)) {
-      return alert(t("contactForm_alertWriteAValidEmailAddress"))
+      return alert(t("contactSection.contactForm_alertWriteAValidEmailAddress"))
     }
 
     const templateParams = {
@@ -42,7 +42,7 @@ export function ContactForm(props) {
       document.querySelector(".contactFormStructure__email").value = '';
       document.querySelector(".contactFormStructure__message").value = '';
     }, () => {
-      alert(t("contactForm_alertMsgError"))
+      alert(t("contactSection.contactForm_alertMsgError"))
     })
   }
 
@@ -68,7 +68,7 @@ export function ContactForm(props) {
       />
       
       <div className='contactFormStructue__button'>
-        <Button type='submit' title={t("contactForm_submitButtonText")}/>
+        <Button type='submit' title={t("contactSection.contactForm_submitButtonText")}/>
       </div>
 
     </form>
