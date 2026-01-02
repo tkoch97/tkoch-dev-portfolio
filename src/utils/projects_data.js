@@ -14,6 +14,14 @@ const projectsData = [
       deploy: `https://food-explorer-front-eosin.vercel.app/`
     },
     {
+      title: 'Convite 15 anos',
+      image: `https://i.pinimg.com/736x/5d/2b/8c/5d2b8c611c9d08fa70b53673d41da8fb.jpg`,
+      description: t("projectsSection.projectsData_descriptionConvite15Anos"),
+      tecnologies: ["JavaScript", "React", "SASS","ViteJs"],
+      repository: `https://github.com/tkoch97/mariana15anos`,
+      deploy: `https://mariana15anos.vercel.app/`
+    },
+    {
       title: 'Rocket Notes',
       image: `https://raw.githubusercontent.com/tkoch97/rocket-notes-front/main/public/github/img/preview.png`,
       description: t("projectsSection.projectsData_descriptionRocketNotes"),
