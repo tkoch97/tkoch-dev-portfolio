@@ -12,8 +12,12 @@
     .tecnologieIconStructure__ring {
       border: 1px solid $green-300;
 
-      > svg {
-        > path {
+      >svg {
+        g {
+          fill: $green-300;
+        }
+
+        path {
           fill: $green-300;
         }
       }
@@ -33,24 +37,35 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  
-  border: 1px solid $green-200;
+
+  border: 1px solid $green-100;
   border-radius: 50%;
-  
+
+  >svg {
+    g {
+      fill: $green-100;
+    }
+
+    path {
+      fill: $green-100;
+    }
+  }
+
   @media screen and (max-width: map-get($DEVICE_BREAKPOINTS, SM)) {
     width: 8.0rem;
     height: 8.0rem;
   }
-  
+
   @media screen and (min-width: 360px) and (max-width: 409px) {
     width: 7.0rem;
     height: 7.0rem;
   }
 }
 
-#HTML5, #CSS3 {
+#HTML5,
+#CSS3 {
   @media screen and (min-width: 360px) and (max-width: 409px) {
-    > svg {
+    >svg {
       width: 50%;
     }
   }
