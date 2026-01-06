@@ -6,35 +6,40 @@ import emailjs from '@emailjs/browser';
 import { useTranslation } from 'react-i18next';
 
 export function ContactForm(props) {
-
+  
   const {placeholders} = props;
-
+  
   const {t} = useTranslation();
-
+  
   const[name, setName] = useState('')
   const[email, setEmail] = useState('')
   const[message, setMessage] = useState('')
-
+  
   const sendEmail = (e) => {
     e.preventDefault();
-
+    
     const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-  
+    
     if(!name || !email || !message) {
       return alert(t("contactSection.contactForm_alertCompleteAllForm"))
     } else if (!emailPattern.test(email)) {
       return alert(t("contactSection.contactForm_alertWriteAValidEmailAddress"))
     }
-
+    
+    const emailjsServiceId = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+    const emailjsTemplateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+    const emailjsPublicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
+    
+    
     const templateParams = {
       from_name: name,
       email: email,
       message: message
     }
-
-    emailjs.send("service_2tf01vl", "template_6kb9hp4", templateParams, "YHmljYz7kEXcMhkzE")
+    
+    emailjs.send(emailjsServiceId, emailjsTemplateId, templateParams, emailjsPublicKey)
     .then(() => {
-      alert(t("contactForm_alertMsgSuccess"))
+      alert(t("contactSection.contactForm_alertMsgSuccess"))
       setName('');
       setEmail('')
       setMessage('')
@@ -45,7 +50,7 @@ export function ContactForm(props) {
       alert(t("contactSection.contactForm_alertMsgError"))
     })
   }
-
+  
   return(
     <form className="contactFormStructure" onSubmit={sendEmail}>
 
